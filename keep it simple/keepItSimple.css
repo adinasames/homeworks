@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+div{
+    position: absolute;
+    left: 33%;
+    margin-top: 2em;
+}
