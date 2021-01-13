@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#dreptunghi{
+ background-color: blue;
+ height: 5em;
+ width: 10em;
+ margin: 2em;
+ cursor: pointer;
+}
+
+.action {
+    animation-name: close;
+    animation-duration: 4s;
+}
+
+@keyframes close{
+    0%{
+        opacity: 1;
+        transform: rotateX(0deg);
+      }
+      50%{
+        opacity: 0.5;
+        transform: rotateX(90deg);
+      }
+      100%{
+        display: none;
+        opacity: 0;
+        transform: rotateX(90deg);
+      }
+    }
+

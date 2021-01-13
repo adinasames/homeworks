@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#cerc{
+ background-color: grey;
+ height: 5em;
+ width: 5em;
+ margin: 2em;
+ cursor: pointer;
+ border-radius: 5em;
+}
+.action{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move{
+    
+    to{
+     transform: translate(90vh, 30vw);
+     background-color: red;
+    }
+}
