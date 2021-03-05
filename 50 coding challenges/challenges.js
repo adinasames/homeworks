@@ -37,8 +37,8 @@
 
 // for (let i = 1; i < 11; i++) {
 //     for (let j = 1; j < 11; j++) {
-//         let product = i + j
-//         document.write(i + " + " + j + " = " + product + "<br>")
+//         let sum = i + j
+//         document.write(i + " + " + j + " = " + sum + "<br>")
         
 //     }  
 // }
@@ -125,15 +125,24 @@
 
 // 13. Find the maximum number in an array of numbers
 
-let ar = [60, 59, 48, 71, 53, 47, 64, 45, 51, 70]
+// let ar = [60, 59, 48, 71, 53, 47, 64, 45, 51, 70]
 
-ar.sort()
+// ar.sort()
 
-max = ar.pop()
+// max = ar.pop()
 
-console.log(max)
+// console.log(max)
 
-//sau
+// //sau
 
-ar.reduce((max, value) => max > value ? max: value)
+// ar.reduce((max, value) => max > value ? max: value)
+
+// 14. Print the first 10 Fibonacci numbers without recursion
+
+var fib = [0, 1];
+for(var i=fib.length; i<10; i++) {
+    fib[i] = fib[i-2] + fib[i-1];
+}
+console.log(fib); 
+
 

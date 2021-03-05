@@ -5,9 +5,8 @@
 }
 
 body {
-    --black: rgb(37, 37, 37);
-    background-color: var(--black);
-    color: rgb(231, 231, 231);
+    background-color: var(--back-color);
+    color: var(--font-color);
     font-family: sans-serif;
 }
 
@@ -22,7 +21,7 @@ nav ul {
 }
 
 nav ul li{
-    margin: 0 1em 1em 1em;
+    margin: 0 1em 0.5em 1em;
     list-style-type: none;
     text-transform: uppercase;
 }
@@ -38,8 +37,14 @@ div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: var(--black);
+    color: rgb(37, 37, 37);
     font-weight: bold;
+}
+
+#switch {
+    font-size: 1.5em;
+    margin-top: -0.3em;
+    cursor: pointer;
 }
 
 
