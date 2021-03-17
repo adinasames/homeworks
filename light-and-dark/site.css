@@ -41,9 +41,10 @@ div{
     font-weight: bold;
 }
 
-#switch {
-    font-size: 1.5em;
-    margin-top: -0.3em;
+#switch::before {
+    content: var(--symbol);
+    font-size: 1em;
+    font-family: "Font Awesome 5 Free";
     cursor: pointer;
 }
 
